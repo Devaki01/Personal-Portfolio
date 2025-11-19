@@ -15,3 +15,8 @@
   --color-black: #000000;
   --color-white: #ffffff;
 }
+
+img {
+  height: 60px;
+  width: auto;
+}
