@@ -1,22 +1,39 @@
 import './App.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Navbar from './components/navbar';
+import Home from './components/home';
+import About from './components/about';
+import Projects from './components/projects';
+import Contact from './components/contact';
 
+function App() {
+  const router = createBrowserRouter ([
+      {
+        path: '/',
+        element: <> <Navbar /> <Home /> </>
+      },
+      {
+        path: '/about',
+        element: <> <Navbar /> <About /> </>
+      },
+      {
+        path: '/projects',
+        element: <> <Navbar /> <Projects /> </>
+      },
+      {
+        path: '/contact',
+        element: <> <Navbar /> <Contact /> </>
+      },
+    ]) 
 
-export default function App() {
   return (
-    <div className="font-inter bg-secondary min-h-screen p-8">
-      <h1 className="font-antonio text-4xl p-3 text-primary">
-        Welcome to My App
-      </h1>
-
-      <p className="font-spartan text-4xl p-3 text-black">
-        This is using League Spartan.
-      </p>
-
-      <p className="font-jura text-4xl p-3 text-black">
-        This is using Jura.
-      </p>
-    </div>
+    <>
+    <div className='text-4xl font-antonio p-2'> Hello World </div>
+    <RouterProvider router={router} />
+    </>
   );
 }
+
+export default App;
 
 
