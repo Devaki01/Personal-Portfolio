@@ -1,2 +1,17 @@
 @import "tailwindcss"; 
 
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:wght@100..900&family=Jura:wght@300..700&family=League+Spartan:wght@100..900&display=swap');
+
+@theme {
+
+  --font-antonio: "Antonio", sans-serif;
+  --font-spartan: "League Spartan", sans-serif;
+  --font-jura: "Jura", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  --color-primary: #93A9FF;  /* Your Blue/Purple */
+  --color-secondary: #E9EFFF;  /* Your Light Background */
+  
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
