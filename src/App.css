@@ -16,7 +16,12 @@
   --color-white: #ffffff;
 }
 
-img {
+ #logo {
   height: 60px;
   width: auto;
+}
+
+#profile {
+  height: auto;
+  width: 50%;
 }
