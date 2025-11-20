@@ -5,21 +5,21 @@ const Navbar = () => {
   return (
     <nav>
       
-      <div className='font-spartan text-2xl font-bold'>
+      <div className='font-spartan text-white text-2xl font-bold p-2 bg-black flex-column'>
 
-        <Link to="/" className="hover:text-primary">
+        <Link to="/" className="p-4 hover:text-primary">
           Home
         </Link>
 
-        <Link to="/about" className="hover:text-primary">
+        <Link to="/about" className="p-4 hover:text-primary">
           About
         </Link>
 
-        <Link to="/projects" className="hover:text-primary">
+        <Link to="/projects" className="p-4 hover:text-primary">
           Projects
         </Link>
 
-        <Link to="/contact" className="hover:text-primary">
+        <Link to="/contact" className="p-4 hover:text-primary">
           Contact
         </Link>
         

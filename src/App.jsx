@@ -4,7 +4,6 @@ import Home from './components/home';
 import About from './components/about';
 import Projects from './components/projects';
 import Contact from './components/contact';
-import logo from './assets/logo.png';
 
 function App() {
   const router = createBrowserRouter ([
@@ -28,7 +27,6 @@ function App() {
 
   return (
     <>
-    <div className='bg-black p-4'> <img src={logo} /> </div>
     <RouterProvider router={router} />
     </>
   );
