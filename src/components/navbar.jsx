@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       
-      <div className='font-spartan text-white text-2xl font-bold p-2 bg-black flex-column'>
+      <div className='font-spartan text-white text-3xl p-2 bg-black flex-column'>
 
         <Link to="/" className="p-4 hover:text-primary">
           Home
