@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Walmart Pro",
+    "image": "https://placehold.co/600x400/png?text=Project+Image+1",
+    "description": "A full-stack inventory management PWA concept that calculates the fastest in-store routes for order fulfillment. The front-end is built with Next.js, while the Java back-end runs the A* (A-Star) and Traveling Salesman pathfinding algorithms.",
+    "link": "https://github.com/Devaki01/Walmart-Pro"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website",
+    "image": "https://placehold.co/600x400/png?text=Project+Image+2",
+    "description": "A responsive portfolio website designed to showcase my projects and skills. Built using React and Tailwind CSS for blazingly fast performance and easy styling.",
+    "link": "https://github.com/yourusername/project2"
+  },
+  {
+    "id": 3,
+    "name": "Intelligent Farm Layout System",
+    "image": "https://placehold.co/600x400/png?text=Project+Image+3",
+    "description": "A productivity tool for managing daily tasks. Uses React Native for cross-platform mobile support and Firebase for real-time data synchronization.",
+    "link": "https://github.com/Devaki01/Intelligent-Farm-Layout-System"
+  },
+  {
+    "id": 4,
+    "name": "EcoStore",
+    "image": "https://placehold.co/600x400/png?text=Project+Image+4",
+    "description": "A dynamic weather dashboard that fetches data from the OpenWeather API. Displays current conditions and a 5-day forecast for user-selected cities.",
+    "link": "https://github.com/Devaki01/EcoStore"
+  }
+]

@@ -62,18 +62,18 @@ const About = () => {
         </div>
 
         {/* MIDDLE CARD */}
-        <div className="absolute top-1/2 left-[35%] -translate-x-1/2 -translate-y-1/2 w-[340px] bg-surface shadow-2xl z-10 flex flex-col">
+        <div className="absolute top-1/2 left-[35%] -translate-x-1/2 -translate-y-1/2 w-[320px] bg-surface shadow-2xl z-10 flex flex-col">
 
-          <div className="p-10 flex-1 flex flex-col items-center justify-center text-center">
-            <div className="w-40 h-40 bg-white rounded-full mb-8 shadow-sm flex items-center justify-center text-gray-300">
+          <div className="py-6 flex-1 flex flex-col items-center justify-center text-center">
+            <div className="w-50 h-50 bg-white rounded-full mb-4 shadow-sm flex items-center justify-center text-gray-300">
               {/* Put your <img /> here */}
             </div>
 
-            <h3 className="text-2xl text-black uppercase tracking-widest leading-snug mb-2 font-medium">
-              Devaki Joshi
+            <h3 className="text-2xl text-black uppercase tracking-widest leading-snug p-3 font-medium">
+              Devaki <br /> Joshi
             </h3>
 
-            <div className="w-16 h-[1px] bg-black my-3"></div>
+            <div className="w-16 h-[1px] bg-black mb-3"></div>
 
             <p className="uppercase tracking-[0.6em] font-jura text-lg text-gray-600">
               Student
