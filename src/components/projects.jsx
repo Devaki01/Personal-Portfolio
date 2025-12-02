@@ -23,12 +23,11 @@ const Project = () => {
   }
 
   return (
-    <section className="min-h-screen bg-white py-10 px-4 relative overflow-hidden">
+    <section className="min-h-screen bg-white py-10 px-6 relative overflow-hidden">
       
       {/* --- Header Section (Title & Menu Icon) --- */}
-      <div className="max-w-6xl mx-auto flex justify-between items-center mb-12 relative">
-        {/* Centered Title */}
-        <h2 className="text-5xl md:text-6xl font-black text-center w-full tracking-tight">
+      <div className="max-w-6xl mx-auto flex justify-between items-center relative">
+        <h2 className="text-5xl md:text-6xl font-spartan font-medium text-center w-full">
           Projects
         </h2>
 
@@ -40,9 +39,8 @@ const Project = () => {
         </button>
       </div>
 
-
       {/* --- Carousel Section --- */}
-      <div className="max-w-5xl mx-auto flex items-center justify-center gap-8 md:gap-16 h-[600px]">
+      <div className="max-w-5xl mx-auto flex items-center justify-center gap-8 md:gap-16 h-[500px]">
         
         {/* Left Arrow */}
         <button 
@@ -56,7 +54,7 @@ const Project = () => {
         </button>
 
         {/* The Flipping Card */}
-        <div className="flex justify-center items-center py-10">
+        <div className="flex justify-center items-center py-10 font-antonio">
              {/* Key ensures the component resets state (unflips) when changing projects */}
              <ProjectCard key={currentIndex} project={projectsData[currentIndex]} />
         </div>
