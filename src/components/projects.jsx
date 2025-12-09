@@ -24,14 +24,11 @@ const Project = () => {
 
   return (
     <section className="min-h-screen bg-white py-10 px-6 relative overflow-hidden">
-      
-      {/* --- Header Section (Title & Menu Icon) --- */}
       <div className="max-w-6xl mx-auto flex justify-between items-center relative">
         <h2 className="text-5xl md:text-6xl font-spartan font-medium text-center w-full">
           Projects
         </h2>
 
-        {/* Menu Burger Icon (Top Right) */}
         <button className="absolute right-0 top-1/2 -translate-y-1/2 p-2 hover:bg-gray-100 rounded-full transition-colors">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-10 h-10">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -39,10 +36,8 @@ const Project = () => {
         </button>
       </div>
 
-      {/* --- Carousel Section --- */}
       <div className="max-w-5xl mx-auto flex items-center justify-center gap-8 md:gap-16 h-[500px]">
-        
-        {/* Left Arrow */}
+
         <button 
           onClick={prevSlide} 
           className="p-2 rounded-full hover:bg-gray-100 transition-colors z-10 hidden md:block"
@@ -53,13 +48,10 @@ const Project = () => {
          </svg>
         </button>
 
-        {/* The Flipping Card */}
         <div className="flex justify-center items-center py-10 font-antonio">
-             {/* Key ensures the component resets state (unflips) when changing projects */}
              <ProjectCard key={currentIndex} project={projectsData[currentIndex]} />
         </div>
 
-        {/* Right Arrow */}
         <button 
           onClick={nextSlide}
           className="p-2 rounded-full hover:bg-gray-100 transition-colors z-10 hidden md:block"
@@ -70,7 +62,6 @@ const Project = () => {
           </svg>
         </button>
 
-         {/* Mobile Navigation controls */}
          <div className="absolute bottom-10 left-0 right-0 flex justify-center gap-8 md:hidden">
              <button onClick={prevSlide} className="p-3 bg-gray-100 rounded-full shadow-md"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg></button>
              <button onClick={nextSlide} className="p-3 bg-gray-100 rounded-full shadow-md"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></button>
