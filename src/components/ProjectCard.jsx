@@ -19,13 +19,12 @@ const ProjectCard = ({ project }) => {
           isFlipped ? '[transform:rotateY(180deg)]' : ''
         }`}
       >
-        {/* ================== FRONT FACE ================== */}
+
         <div className={`${cardFaceBaseClasses} bg-primary`}>
           <h3 className="text-white text-3xl font-bold mb-6 text-center tracking-wider drop-shadow-md">
             {project.name}
           </h3>
           
-          {/* White Inner Box for Image */}
           <div className="bg-white p-3 shadow-inner w-full h-64 flex items-center justify-center overflow-hidden">
              <img 
                src={project.image} 
@@ -35,8 +34,6 @@ const ProjectCard = ({ project }) => {
           </div>
         </div>
 
-        {/* ================== BACK FACE ================== */}
-        {/* Rotated 180deg initially so it's hidden until flipped */}
         <div
           className={`${cardFaceBaseClasses} bg-primary [transform:rotateY(180deg)] font-spartan justify-between py-12`}
         >
