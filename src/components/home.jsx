@@ -6,7 +6,7 @@ import profile from '../assets/profile1.jpeg';
 const Home = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <div className='flex items-center justify-between bg-black px-8 py-4'> 
+      <div className='flex items-center justify-between px-8 py-4'> 
         <div> 
             <img id="logo" src={logo} alt="Logo" className="h-10" /> 
         </div>
