@@ -14,7 +14,7 @@ const Navbar = () => {
           toggled={open} 
           toggle={setOpen} 
           size={32}
-          color={open ? '#4F46E5' : '#FFFFFF'} 
+          color={open ? '#4F46E5' : '#000000ff'} 
           duration={0.4}
         />
       </div>

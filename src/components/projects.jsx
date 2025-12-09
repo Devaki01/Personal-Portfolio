@@ -2,6 +2,7 @@ import '../App.css';
 import{ useState } from 'react';
 import ProjectCard from './projectCard.jsx';
 import projectsData from './data.json'; 
+import Navbar from "./navbar.jsx";
 
 const Project = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,11 +30,7 @@ const Project = () => {
           Projects
         </h2>
 
-        <button className="absolute right-0 top-1/2 -translate-y-1/2 p-2 hover:bg-gray-100 rounded-full transition-colors">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-10 h-10">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-        </button>
+        <Navbar />
       </div>
 
       <div className="max-w-5xl mx-auto flex items-center justify-center gap-8 md:gap-16 h-[500px]">
