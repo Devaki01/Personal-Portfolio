@@ -1,5 +1,6 @@
 import '../App.css';
 import { useState } from 'react';
+import Navbar from "./navbar";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -32,10 +33,8 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="absolute top-0 right-0 p-8">
-        <div className="w-8 h-1 bg-black mb-1.5"></div>
-        <div className="w-8 h-1 bg-black mb-1.5"></div>
-        <div className="w-8 h-1 bg-black"></div>
+      <div> 
+        <Navbar />
       </div>
 
       <div className="max-w-6xl mx-auto md:p-12">
