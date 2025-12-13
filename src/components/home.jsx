@@ -10,7 +10,9 @@ const Home = () => {
         <div> 
             <img id="logo" src={logo} alt="Logo" className="h-10" /> 
         </div>
-        <Navbar />
+        <div className='bg-white h-10 w-12 flex items-center justify-center'>
+          <Navbar />
+        </div>
       </div>
 
       <div className='flex flex-1'>

@@ -29,9 +29,9 @@ const Project = () => {
         <h2 className="text-5xl md:text-6xl font-spartan font-medium text-center w-full">
           Projects
         </h2>
-
-        <Navbar />
       </div>
+
+      <Navbar />
 
       <div className="max-w-5xl mx-auto flex items-center justify-center gap-8 md:gap-16 h-[500px]">
 

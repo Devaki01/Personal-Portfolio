@@ -9,12 +9,12 @@ const Navbar = () => {
   return (
     <nav className="relative w-full z-50">
       
-      <div className="fixed top-5 right-5 z-50">
+      <div className="fixed top-5 right-8 z-50">
         <Hamburger 
           toggled={open} 
           toggle={setOpen} 
           size={32}
-          color={open ? '#4F46E5' : '#ffffffff'} 
+          color={open ? '#4F46E5' : '#000000ff'} 
           duration={0.4}
         />
       </div>

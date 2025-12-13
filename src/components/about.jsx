@@ -2,6 +2,7 @@ import '../App.css';
 import behance from '../assets/behance.png'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
+import Navbar from './navbar'
 
 const About = () => {
   return (
@@ -31,6 +32,10 @@ const About = () => {
         {/* RIGHT SECTION */}
         <div className="flex-1 h-full flex flex-col relative">
           <div className="flex flex-col justify-center h-full pl-32">
+
+            <div>
+              <Navbar />
+            </div>
 
             <h1 className="text-7xl font-antonio text-black mb-2 tracking-tight">
               Hello
