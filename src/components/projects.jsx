@@ -1,6 +1,6 @@
 import '../App.css';
 import{ useState } from 'react';
-import ProjectCard from './projectCard.jsx';
+import ProjectCard from './ProjectCard.jsx';
 import projectsData from './data.json'; 
 import Navbar from "./navbar.jsx";
 
