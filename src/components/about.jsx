@@ -3,6 +3,7 @@ import behance from '../assets/behance.png'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import Navbar from './navbar'
+import profile from '../assets/profile2.png'
 
 const About = () => {
   return (
@@ -70,8 +71,13 @@ const About = () => {
         <div className="absolute top-1/2 left-[35%] -translate-x-1/2 -translate-y-1/2 w-[320px] bg-surface shadow-2xl z-10 flex flex-col">
 
           <div className="py-6 flex-1 flex flex-col items-center justify-center text-center">
-            <div className="w-50 h-50 bg-white rounded-full mb-4 shadow-sm flex items-center justify-center text-gray-300">
-              {/* Put your <img /> here */}
+            <div className="relative w-56 h-56 rounded-full bg-white shadow-sm">
+              <img 
+                  src={profile} 
+                  id="profile" 
+                  alt="profile image" 
+                  className="absolute -top-6 left-1/2 -translate-x-1/2 w-28 h-28 rounded-full object-cover shadow-md"
+              />
             </div>
 
             <h3 className="text-2xl text-black uppercase tracking-widest leading-snug p-3 font-medium">
