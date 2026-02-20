@@ -1,7 +1,7 @@
 import '../App.css';
 import Navbar from './navbar';
 import logo from '../assets/logo.png';
-import profile from '../assets/profile1.jpeg';
+import profile from '../assets/profiile.jpeg';
 
 const Home = () => {
   return (
@@ -18,13 +18,13 @@ const Home = () => {
       <div className='flex flex-1'>
 
         <div className='w-6/12 bg-primary flex items-center justify-center p-12'>
-            
-            <div className='bg-white shadow-2xl h-[22rem] flex items-center justify-center'>
+           
+            <div className='bg-white shadow-2xl shadow-black/40 overflow-hidden flex justify-center transition-transform hover:scale-[1.02] duration-300'>
                 <img 
                     src={profile} 
                     id="profile" 
                     alt="profile image" 
-                    className="w-screen h-full object-cover" 
+                    className="w-full h-[30rem] md:h-[32rem] object-cover aspect-[2/3]" 
                 />
             </div> 
         </div>
@@ -43,5 +43,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
